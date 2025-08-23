@@ -1,0 +1,22 @@
+<resources>
+    <!-- App Background -->
+    <color name="blum_bg">#B1887F</color> <!-- Warm muted rose background -->
+
+    <!-- Accent / Secondary -->
+    <color name="blum_secondary">#5D3A3A</color> <!-- Deep rose red -->
+
+    <!-- Text & White -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="blum_accent">#D46A6A</color>
+    <color name="blum_accent_pressed">#C35C5C</color>
+
+    <color name="overlay_black">#66000000</color>
+
+    <color name="input_pill">#CFE0CF</color> <!-- light sage green -->
+
+    <color name="blum_dark_green">#1B5E20</color>
+
+    <color name="card_bg_light">#FDFDFD</color> <!-- pastel white -->
+</resources>

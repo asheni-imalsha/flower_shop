@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topNavContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient">
+
+    <!-- ───────── App Bar ───────── -->
+    <LinearLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp">
+
+        <!-- Menu Icon -->
+        <TextView
+            android:id="@+id/icoMenu"
+            style="@style/FaIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:text="@string/fa_bars"
+            android:contentDescription="@string/menu"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:padding="6dp"/>
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/logo_desc"
+            android:src="@drawable/logo_bluem"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside" />
+
+        <!-- Brand Name -->
+        <TextView
+            android:id="@+id/tvBrand"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/brand_name"
+            android:textColor="@color/blum_secondary"
+            android:textSize="28sp" />
+
+        <!-- Search Icon -->
+        <TextView
+            android:id="@+id/icoSearch"
+            style="@style/FaIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:text="@string/fa_search"
+            android:contentDescription="@string/search"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+    <!-- ───────── Category navigation bar ───────── -->
+    <HorizontalScrollView
+        android:id="@+id/categoriesScroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/categoriesBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp">
+
+            <!-- All Flowers -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipAllFlowers"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_all_flowers"
+                android:textSize="14sp"
+                android:textColor="@color/blum_secondary"
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <!-- Seasonal -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/navSeasonal"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_seasonal"
+                android:textSize="14sp"
+                android:textColor="@color/blum_secondary"
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <!-- Occasions -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOccasions"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_occasions"
+                android:textSize="14sp"
+                android:textColor="@color/blum_secondary"
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/transparent"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawablePadding="4dp"/>
+
+            <!-- Weddings -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/weddings"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_weddings"
+                android:textSize="14sp"
+                android:textColor="@color/blum_secondary"
+                android:textStyle="bold"
+                android:backgroundTint="@android:color/transparent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- ───────── Filter row ───────── -->
+    <LinearLayout
+        android:id="@+id/filterRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.85"
+            android:paddingEnd="8dp"
+            android:text="@string/filter_by"
+            android:textColor="@color/blum_secondary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/filterColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="@string/filter_color"
+            android:textColor="@color/blum_secondary"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

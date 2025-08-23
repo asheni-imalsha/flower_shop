@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomBar"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/card_bg_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <!-- Home -->
+        <TextView
+            android:id="@+id/navHome"
+            style="@style/FaIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/fa_home"
+            android:contentDescription="@string/home" />
+
+        <!-- Deals -->
+        <TextView
+            android:id="@+id/navDeals"
+            style="@style/FaIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/fa_tags"
+            android:contentDescription="@string/deals" />
+
+        <!-- Cart -->
+        <TextView
+            android:id="@+id/navCart"
+            style="@style/FaIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/fa_cart"
+            android:contentDescription="@string/cart" />
+
+        <!-- Profile -->
+        <TextView
+            android:id="@+id/navProfile"
+            style="@style/FaIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/fa_user"
+            android:contentDescription="@string/profile" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

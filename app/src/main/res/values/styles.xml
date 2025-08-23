@@ -1,0 +1,23 @@
+<resources>
+    <!-- 🌸 Default Font Awesome Icon Style -->
+    <style name="FaIcon">
+        <!-- Font Awesome Solid -->
+        <item name="android:fontFamily">@font/fa_solid_900</item>
+        <item name="fontFamily">@font/fa_solid_900</item> <!-- backward compat -->
+
+        <!-- Appearance -->
+        <item name="android:textColor">@color/blum_secondary</item>
+        <item name="android:textSize">28sp</item> <!-- bigger for visibility -->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 🌿 Alternate FA Style (for lighter/pill-colored icons if needed) -->
+    <style name="FaIcon.Light">
+        <item name="android:fontFamily">@font/fa_solid_900</item>
+        <item name="fontFamily">@font/fa_solid_900</item>
+
+        <item name="android:textColor">@color/input_pill</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

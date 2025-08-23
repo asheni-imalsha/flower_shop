@@ -1,0 +1,285 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Blüm</string>
+    <string name="brand_name">Blüm</string>
+    <string name="logo_desc">Blüm logo</string>
+
+    <!-- Welcome -->
+    <string name="tagline">Where every petal tells a story…</string>
+    <string name="cta">Click Here</string>
+    <string name="welcome_title">Welcome\nto Blüm !</string>
+    <string name="welcome_tagline">we’re glad that you are here</string>
+    <string name="get_started">Lets get started</string>
+
+    <!-- Discover -->
+    <string name="discover_title">Discover Blüm</string>
+    <string name="discover_subtitle">Discover the world of flowers with us</string>
+
+    <!-- Sign Up -->
+    <string name="signup_title">Sign Up</string>
+    <string name="email_label">E-Mail Address :</string>
+    <string name="email_hint">Enter E-mail</string>
+    <string name="password_label">Password :</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="confirm_password_label">Confirm Password :</string>
+    <string name="confirm_password_hint">Re-enter Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_account">Already have an account? Sign In</string>
+
+    <!-- Sign In -->
+    <string name="signin_title">Sign In</string>
+    <string name="signin_button">Sign In</string>
+    <string name="dont_have_account">Don’t have an account? Sign Up</string>
+
+    <!-- Home Categories -->
+    <string name="cat_all_flowers">Flowers</string>
+    <string name="cat_seasonal">Seasonal</string>
+    <string name="cat_occasions">Occasions</string>
+    <string name="cat_weddings">Weddings</string>
+
+    <!-- Home Promo -->
+    <string name="promo_title">Summer Collection is here !</string>
+    <string name="promo_desc">Discover our new arrivals</string>
+    <string name="hero_title">Summer Collection</string>
+    <string name="hero_subtitle">Discover our new arrivals</string>
+    <string name="content_promo">Promotional flowers</string>
+
+    <!-- Home Section -->
+    <string name="section_bouquets">Bouquets</string>
+
+    <!-- Bouquet Items -->
+    <string name="item_sunshine">Sunshine</string>
+    <string name="item_price_sunshine">Rs. 2500 /-</string>
+    <string name="content_sunshine">Image of Sunshine bouquet</string>
+
+    <string name="item_bayside">Bayside</string>
+    <string name="item_price_bayside">Rs. 3700 /-</string>
+    <string name="content_bayside">Image of Bayside bouquet</string>
+
+    <string name="item_summer">Summer Bloom</string>
+    <string name="item_price_summer">Rs. 3200 /-</string>
+    <string name="content_summer_bloom">Image of Summer Bloom bouquet</string>
+
+    <!-- Filter -->
+    <string name="filter_by">Filter By :</string>
+    <string name="filter_color">Color</string>
+
+    <!-- Occasions List (keep as it is) -->
+    <string-array name="occasions_list">
+        <item>Birthdays</item>
+        <item>New Baby</item>
+        <item>Housewarming</item>
+        <item>Sympathy</item>
+        <item>I’m Sorry</item>
+        <item>Thank You</item>
+        <item>Anniversaries</item>
+        <item>Mother’s Day</item>
+        <item>Weddings</item>
+    </string-array>
+
+    <!-- ───────── Profile / Main Menu ───────── -->
+    <string-array name="main_menu">
+        <item>@string/menu_settings</item>
+        <item>@string/menu_orders</item>
+        <item>@string/menu_cart</item>
+        <item>@string/menu_seasonal</item>
+        <item>@string/menu_weddings</item>
+        <item>@string/menu_occasions</item>
+    </string-array>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_orders">Orders</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_seasonal">Seasonal Collection</string>
+    <string name="menu_weddings">Wedding Collection</string>
+    <string name="menu_occasions">Occasions</string>
+
+    <!-- Seasonal Submenu -->
+    <string-array name="seasonal_list">
+        <item>@string/menu_summer</item>
+        <item>@string/menu_spring</item>
+        <item>@string/menu_autumn</item>
+    </string-array>
+
+    <string name="menu_summer">Summer</string>
+    <string name="menu_spring">Spring</string>
+    <string name="menu_autumn">Autumn</string>
+    <string name="menu_winter">Winter</string>
+
+    <!-- Font Awesome -->
+    <string name="fa_bars">&#xf0c9;</string>
+    <string name="fa_search">&#xf002;</string>
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_tags">&#xf02c;</string>
+    <string name="fa_cart">&#xf07a;</string>
+    <string name="fa_user">&#xf007;</string>
+
+    <!-- 🔍 Search Page -->
+    <string name="search_hint">Search here</string>
+    <string name="search_mic_desc">Voice Search</string>
+    <string name="search_back">Back</string>
+
+    <!-- Search Categories -->
+    <string name="cat_birthday">Birthday Collection</string>
+    <string name="cat_roses">Roses Collection</string>
+    <string name="cat_wedding">Wedding Collection</string>
+    <string name="cat_spring">Spring Collection</string>
+    <string name="cat_summer">Summer Collection</string>
+    <string name="cat_autumn">Autumn Collection</string>
+    <string name="cat_winter">Winter Collection</string>
+    <string name="cat_surprise">Surprise me !</string>
+
+    <!-- Font Awesome Icons -->
+    <string name="fa_arrow_left">&#xf060;</string>      <!-- back --><!-- search -->
+    <string name="fa_microphone">&#xf130;</string>     <!-- mic -->
+
+    <!-- Category icons -->
+    <string name="fa_birthday">&#xf1fd;</string>       <!-- birthday cake -->
+    <string name="fa_roses">&#xf004;</string>          <!-- heart (roses/love) -->
+    <string name="fa_wedding">&#xf70b;</string>        <!-- ring -->
+    <string name="fa_spring">&#xf06c;</string>         <!-- leaf -->
+    <string name="fa_summer">&#xf185;</string>         <!-- sun -->
+    <string name="fa_autumn">&#xf06c;</string>         <!-- leaf (reuse) -->
+    <string name="fa_winter">&#xf2dc;</string>         <!-- snowflake -->
+    <string name="fa_surprise">&#xf06b;</string>       <!-- gift -->
+    <!-- gift -->
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="home">Home</string>
+    <string name="deals">Deals</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="search">Search</string>
+
+    <!-- Deals Page -->
+    <string name="deals_title">Discounts</string>
+    <string name="deal_1_title">20% Off</string>
+    <string name="deal_1_sub">For new customers</string>
+    <string name="deal_2_title">30% Off</string>
+    <string name="deal_2_sub">For orders above Rs. 9500/-</string>
+    <string name="deal_3_title">15% Off</string>
+    <string name="deal_3_sub">First app purchase</string>
+    <string name="deal_terms">Terms and Conditions Apply.</string>
+    <string name="deal_shop_here">Shop Here</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_cart">Cart</string>
+    <string name="profile_orders">Orders</string>
+    <string name="profile_discounts">Discounts</string>
+    <string name="profile_settings">Settings</string>
+
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_address">Address</string>
+    <string name="edit_profile_phone">Phone Number</string>
+    <string name="edit_profile_save">Save</string>
+
+    <!-- Birthday Collection -->
+    <string name="birthday_collection_title">Shop Here For Birthday Collection</string>
+
+    <!-- Bouquet Names -->
+    <string name="bouquet_blossom">Blossom</string>
+    <string name="bouquet_cashmere">Cashmere</string>
+    <string name="bouquet_bejeweled">Bejeweled</string>
+    <string name="bouquet_aquamarine">Aquamarine</string>
+    <string name="bouquet_angel">Angel</string>
+    <string name="bouquet_venice_peach">Venice Peach</string>
+    <string name="bouquet_dreamy_meadow">Dreamy Meadow</string>
+    <string name="bouquet_buttercream">Buttercream</string>
+    <string name="bouquet_default_name">Bouquet Name</string>
+
+    <!-- Prices -->
+    <string name="price_blossom">From Rs. 3500/- onwards</string>
+    <string name="price_cashmere">From Rs. 4200/- onwards</string>
+    <string name="price_bejeweled">From Rs. 3000/- onwards</string>
+    <string name="price_aquamarine">From Rs. 2800/- onwards</string>
+    <string name="price_angel">From Rs. 2600/- onwards</string>
+    <string name="price_venice_peach">From Rs. 3100/- onwards</string>
+    <string name="price_dreamy_meadow">From Rs. 4000/- onwards</string>
+    <string name="price_buttercream">From Rs. 2900/- onwards</string>
+    <string name="price_sunshine">From Rs. 2500/- onwards</string>
+
+
+    <!-- Bouquet Sizes -->
+    <string name="size_grand">Grand - 63 Mixed Stems\nTriple the Blooms</string>
+    <string name="price_grand">Rs. 7500/-</string>
+
+    <string name="size_deluxe">Deluxe - 42 Mixed Stems\nDouble the Blooms</string>
+    <string name="price_deluxe">Rs. 4500/-</string>
+
+    <string name="size_original">Original - 21 Mixed Stems\nA Classic-Sized Bouq</string>
+    <string name="price_original">Rs. 3500/-</string>
+
+    <!-- Info Section -->
+    <string name="ingredients_label">Ingredients: peach and pink roses, carnations, pink lilies, blue delphinium</string>
+    <string name="best_for_label">Best For: birthdays, celebrating new beginnings, baby showers</string>
+
+    <!-- Wrapping Options -->
+    <string name="select_wrapping">Select Wrapping Option:</string>
+    <string name="wrap_waterproof">Waterproof</string>
+    <string name="wrap_solid">Solid</string>
+    <string name="wrap_paper">Paper</string>
+
+    <!-- Add Note -->
+    <string name="optional_note">Optional: Add a note</string>
+    <string name="hint_note">Write a message...</string>
+
+    <!-- Quantity & Cart -->
+    <string name="qty_minus">-</string>
+    <string name="qty_plus">+</string>
+    <string name="qty_default">1</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <string name="cart_bouquet_title">Birthday Collection : Blossom - Deluxe</string>
+    <string name="cart_bouquet_price">Rs. 4500/-</string>
+    <string name="cart_note">Note: Happy Birthday! + Extra Rs. 150/-</string>
+    <string name="cart_wrapping">Wrapping Option: Waterproof + Extra Rs. 300/-</string>
+    <string name="cart_total">Total : Rs. 4950/-</string>
+    <string name="cart_checkout">Proceed to Checkout</string>
+
+    <!-- Checkout Labels -->
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_name">Name :</string>
+    <string name="checkout_address">Address :</string>
+    <string name="checkout_phone">Phone :</string>
+
+    <!-- Hints -->
+    <string name="hint_name">Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_payment_slip">Payment slip reference</string>
+
+    <!-- Summary Labels -->
+    <string name="checkout_summary_example">Blossom - Deluxe, Note, Wrapping</string>
+    <string name="checkout_total">Total : Rs. 4950/-</string>
+    <string name="checkout_shipping">Shipping : Rs. 300/-</string>
+    <string name="checkout_subtotal">Sub Total : Rs. 5250/-</string>
+
+    <!-- Payment -->
+    <string name="checkout_payment_slip">Enter the payment slip :</string>
+
+    <!-- Buttons -->
+    <string name="checkout_place_order">Place Order</string>
+
+    <string name="order_success_title">Order Placed</string>
+    <string name="order_success_message">You have successfully placed the order 🎉</string>
+    <string name="order_go_to_orders">Go to Orders</string>
+    <string name="order_close">Close</string>
+    <string name="order_missing_info">Please fill in all required details before placing the order.</string>
+
+    <string name="checkout_order_success_title">Order Placed</string>
+    <string name="checkout_order_success_message">You have successfully placed the order 🎉</string>
+    <string name="checkout_go_to_orders">Go to Orders</string>
+    <string name="checkout_close">Close</string>
+    <string name="checkout_fill_all">Please fill in all details</string>
+
+    <string name="orders_title">Orders</string>
+    <string name="orders_default_note">Note added</string>
+    <string name="orders_default_wrapping">Waterproof wrapping paper</string>
+    <string name="orders_default_quantity">Quantity : 1</string>
+    <string name="orders_default_price">Rs. 4950/-</string>
+    <string name="orders_default_date">Order placed on : 04/08/2025</string>
+
+</resources>
